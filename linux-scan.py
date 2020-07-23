@@ -19,7 +19,8 @@ search_term = input("Enter the Search String (default is web ) : ")
 if not search_term:
     #search_term = "DevWeb"
 	search_term = "web"
-	
+# //after this point, the program returns annything with config.
+# //need to fix this as it is providng erronious reports.
 file_endswith = input("Enter the file extention you are looking for: ( Eg: .config) : ")
 if not file_endswith:
     file_endswith = ".config"
